@@ -13,7 +13,7 @@ def status():
     return 'OK'
 
 @app.route('/hola_choki')
-def status():
+def saludos_choki():
     return 'Kionda pa'
 
 if __name__ == '__main__':
