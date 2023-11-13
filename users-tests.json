@@ -1,0 +1,12 @@
+{
+  "usuarios" : {
+    "usuario1": {
+      "nombre": "Leonardo",
+      "password" : "1928"
+    },
+    "usuario2":{
+      "nombre" : "Perla",
+      "password" : "12349"
+    }
+  }
+}
