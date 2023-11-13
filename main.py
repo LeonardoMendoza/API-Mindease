@@ -15,6 +15,7 @@ def status():
 if __name__ == '__main__':
     # Configura la variable de entorno FLASK_ENV
     app.config['FLASK_ENV'] = 'production'
-    app.run()
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='mindeaseapi.azurewebsites.net', port=port)
 
 
