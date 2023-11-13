@@ -13,7 +13,8 @@ def status():
     return 'OK'
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+    # Configura la variable de entorno FLASK_ENV
+    app.config['FLASK_ENV'] = 'production'
+    app.run()
 
 
